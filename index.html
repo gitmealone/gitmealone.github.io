@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>jdci site</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+
+
+
+ 
+
+/* General link stylesfont-size: 8em; color: #000;*/
+
+.link {
+    outline: none;
+    text-decoration: none;
+    position: relative;
+        font-size: 2rem;
+    line-height: 1;
+    color: #000;
+    display: inline-block;
+}
+
+
+/* Yaku font-family: 'Playfair Display';*/
+.link--yaku {
+    color: #D3D3D3;
+    font-family: var(--bs-body-font-family);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 6em;
+    overflow: hidden;
+    padding: 0 0 10px;
+}
+
+.link--yaku::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-width: 2px 0;
+    border-color: #282828;
+    border-style: solid;
+    left: 0;
+    -webkit-transform: translate3d(-101%,0,0);
+    transform: translate3d(-101%,0,0);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.link--yaku:hover::before {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.link--yaku span {
+    display: inline-block;
+    position: relative;
+    -webkit-transform: perspective(1000px) rotate3d(0,1,0,0deg);
+    transform: perspective(1000px) rotate3d(0,1,0,0deg);
+    -webkit-transition: -webkit-transform 0.5s, color 0.5s;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.link--yaku:hover span {
+    color: #1e1a1b;
+    -webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
+    transform: perspective(1000px) rotate3d(0,1,0,360deg);
+}
+
+.link--yaku span:nth-child(4),
+.link--yaku:hover span:first-child {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.link--yaku span:nth-child(3),
+.link--yaku:hover span:nth-child(2) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.link--yaku span:nth-child(2),
+.link--yaku:hover span:nth-child(3) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.link--yaku span:first-child,
+.link--yaku:hover span:nth-child(4) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 42em) {
+    
+    .link--yaku { font-size: 4em; 
+
+}
+ </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        </nav>-->
+        <!-- Masthead mx-auto my-0-->
+        
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <a class="link link--yaku">
+
+                            <span>J</span><span>D</span><span>C</span><span>I</span>                    
+
+                        </a>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5"> ...</h2>
+                        <a class="btn btn-primary" href="http://3124.free.fr/es">ESP</a>
+                  
+                     
+                        <a class="btn btn-primary" href="http://3124.free.fr/en/">ENG</a>
+                	  </div>
+                </div>
+
+            </div>
+        </header>
+
+
+        <!-- Signup-->
+        
+        <!-- Contact
+        <section class="contact-section bg-black">
+        </section>-->
+       
+        <!-- Footer-->
+        
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; jdci 2023</div>
+        </footer>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+ 		 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
